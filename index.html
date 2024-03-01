@@ -8,7 +8,7 @@
         <script src="Pizzas_Responsivo%20Archivos/Script.js"></script>
         <!-- <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> -->
     </head>
-    <body onload="iniciarValores()">
+    <body>
         <div id="principal">
             <header style="display: flex; flex-direction: row; justify-content: space-around;">
                 <div style="display:flex; flex-direction: column; justify-content: center;">
@@ -233,49 +233,49 @@
                                 </fieldset>
                             </section>
                             <section id="areas" class="contenedor">
-                                    <div><h4>LINEA DEL CORAZÓN</h4></div>
-                                    <div><hr></div>
-                                    <div class="ayuda"> [Respuesta emocionales y capacidad de afecto] </div>
-                                    <fieldset>
-                                        <div class="opciones">
-                                            <div class="agrupa">
-                                                <input type="radio" id="linFuertes" name="marcas" value="1" onclick="document.getElementById('txtQueso').value='Fuertes'" checked="checked">
-                                                <label for="linFuertes">Difusa</label>
-                                            </div>
-                                            <div class="agrupa">
-                                                <input type="radio" id="linDebiles" name="marcas" value="2" onclick="document.getElementById('txtQueso').value='Débiles'">
-                                                <label for="linDebiles">Inter</label>
-                                            </div>
+                                <div><h4>LINEA DEL CORAZÓN</h4></div>
+                                <div><hr></div>
+                                <div class="ayuda"> [Respuesta emocionales y capacidad de afecto] </div>
+                                <fieldset>
+                                    <div class="opciones">
+                                        <div class="agrupa">
+                                            <input type="radio" id="linFuertes" name="marcas" value="1" onclick="receptorDatos('Forma','Curva','Expresa imaginación y creatividad. Evita complicaciones o complejidades. Experimenta con ideas nuevas y asume riesgos calculados. Afronta con energia los problemas para solucionarlos.');" checked="checked">
+                                            <label for="linFuertes">Difusa</label>
                                         </div>
-                                        <div class="opciones">
-                                            <div class="agrupa">
-                                                <input type="radio" id="linFuertes" name="marcas" value="1" onclick="document.getElementById('txtQueso').value='Fuertes'" checked="checked">
-                                                <label for="linFuertes">Curva</label>
-                                            </div>
-                                            <div class="agrupa">
-                                                <input type="radio" id="linDebiles" name="marcas" value="2" onclick="document.getElementById('txtQueso').value='Débiles'">
-                                                <label for="linDebiles">Semi</label>
-                                            </div>
-                                            <div class="agrupa">
-                                                <input type="radio" id="linDebiles" name="marcas" value="2" onclick="document.getElementById('txtQueso').value='Débiles'">
-                                                <label for="linDebiles">Recta</label>
-                                            </div> 
+                                        <div class="agrupa">
+                                            <input type="radio" id="linDebiles" name="marcas" value="2" onclick="document.getElementById('txtQueso').value='Débiles'">
+                                            <label for="linDebiles">Inter</label>
                                         </div>
-                                        <div class="opciones">
-                                            <div class="agrupa">
-                                                <input type="radio" id="linFuertes" name="marcas" value="1" onclick="document.getElementById('txtQueso').value='Fuertes'" checked="checked">
-                                                <label for="linFuertes">Fin DIA↓</label>
-                                            </div>
-                                            <div class="agrupa">
-                                                <input type="radio" id="linDebiles" name="marcas" value="2" onclick="document.getElementById('txtQueso').value='Débiles'">
-                                                <label for="linDebiles">Inter</label>
-                                            </div>
-                                            <div class="agrupa">
-                                                <input type="radio" id="linDebiles" name="marcas" value="2" onclick="document.getElementById('txtQueso').value='Débiles'">
-                                                <label for="linDebiles">Fin DA↓</label>
-                                            </div> 
+                                    </div>
+                                    <div class="opciones">
+                                        <div class="agrupa">
+                                            <input type="radio" id="linFuertes" name="marcas" value="1" onclick="document.getElementById('txtQueso').value='Fuertes'" checked="checked">
+                                            <label for="linFuertes">Curva</label>
                                         </div>
-                                    </fieldset>
+                                        <div class="agrupa">
+                                            <input type="radio" id="linDebiles" name="marcas" value="2" onclick="document.getElementById('txtQueso').value='Débiles'">
+                                            <label for="linDebiles">Semi</label>
+                                        </div>
+                                        <div class="agrupa">
+                                            <input type="radio" id="linDebiles" name="marcas" value="2" onclick="document.getElementById('txtQueso').value='Débiles'">
+                                            <label for="linDebiles">Recta</label>
+                                        </div> 
+                                    </div>
+                                    <div class="opciones">
+                                        <div class="agrupa">
+                                            <input type="radio" id="linFuertes" name="marcas" value="1" onclick="document.getElementById('txtQueso').value='Fuertes'" checked="checked">
+                                            <label for="linFuertes">Fin DIA↓</label>
+                                        </div>
+                                        <div class="agrupa">
+                                            <input type="radio" id="linDebiles" name="marcas" value="2" onclick="document.getElementById('txtQueso').value='Débiles'">
+                                            <label for="linDebiles">Inter</label>
+                                        </div>
+                                        <div class="agrupa">
+                                            <input type="radio" id="linDebiles" name="marcas" value="2" onclick="document.getElementById('txtQueso').value='Débiles'">
+                                            <label for="linDebiles">Fin DA↓</label>
+                                        </div> 
+                                    </div>
+                                </fieldset>
                             </section>
                             <section id="areas" class="contenedor">
                                     <div><h4>LINEA DEL DESTINO</h4></div>

@@ -5,7 +5,7 @@ html
 }
 #principal
 {
-    width: 1200PX;
+    width: 1165px;
     height: 100%;
     margin: auto;
     background-color: black; 
@@ -40,14 +40,14 @@ fieldset    {   display: flex;  flex-direction: column; justify-content:space-ar
 
 .opciones    {   display: flex;  flex-direction: row; justify-content:space-evenly; padding: 5px;   }
 
-.agrupa     {   display:flex; flex-direction: row; justify-content:center; width: 90px; margin-left: 10px;      }
+.agrupa     {   display:flex; flex-direction: row; justify-content:center; width: 95px; margin-left: 10px;      }
 .agrupaRES     {   display:flex; flex-direction: row; justify-content:center; margin-left: 10px;      }
 
 label       {   width: 70px; text-align: left;  font-size: 14px;       }
 .labelRES   {   width: 125px; text-align: left;  font-size: 14px;       }
 input       {   width: 20px;    }
 .texto      {   width: 125px; margin: 0px 10px; font-size: 14px;      color:darkslategray;     }
-.descripcion {   width: 1080px; margin: 0px 10px; font-size: 14px;     color:darkslategray;     }  
+.descripcion {   width: 90%; margin: 0px 10px; font-size: 14px;     color:darkslategray;     }  
 .contenedor 
 {
     padding: 2px;
