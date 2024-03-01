@@ -76,16 +76,16 @@ hr {margin: 0px 10px; }
 
 @media (max-width: 720px) 
 {
-    #principal      {   width: 720px;}
-    header          {   max-width: 720px;}
+    #principal      {   width: 700px;}
+    header          {   max-width: 700px;}
     #general        {   flex-direction: column; align-items: center; }
  
 }
 
 @media (max-width: 480px) 
 {
-    #principal      {   width: 460px;}
-    header          {   max-width: 460px;}
+    #principal      {   width: 440px;}
+    header          {   max-width: 440px;}
     #general        {   flex-direction: column; align-items: center; }
    
 }

@@ -178,7 +178,7 @@
                             <section id="areas" class="contenedor">
                                 <div><h4>LINEA DE LA CABEZA </h4></div>
                                 <div><hr></div>                     
-                                <div class="ayuda"> [Procesos del pensamiento] </div>  
+                                <div class="ayuda"> [Procesos del pensamiento] </div> 
                                 <fieldset>
                                     <div class="opciones">
                                         <div class="agrupa">
@@ -220,7 +220,7 @@
                                             <label for="cabezaInicio2">Separada</label>
                                         </div>
                                     </div>
-                                    <div class="opciones">                                       
+                                    <div class="opciones"> 
                                         <div class="agrupa">
                                             <input type="radio" id="cabezaFinal1" name="cabezaFinal" value="2" onclick="receptorDatos('Final','Meñique','Pensamientos orientados a ganar dinero.');">
                                             <label for="cabezaFinal1">Final Dm↑</label>
@@ -239,105 +239,85 @@
                                 <fieldset>
                                     <div class="opciones">
                                         <div class="agrupa">
-                                            <input type="radio" id="linFuertes" name="marcas" value="1" onclick="receptorDatos('Forma','Curva','Expresa imaginación y creatividad. Evita complicaciones o complejidades. Experimenta con ideas nuevas y asume riesgos calculados. Afronta con energia los problemas para solucionarlos.');" checked="checked">
-                                            <label for="linFuertes">Difusa</label>
+                                            <input type="radio" id="coraMarca1" name="coraMarca" value="1" onclick="receptorDatos('Percepción','Fuerte','Exceso de interés ante las emociones de los demás. Poca sensibilidad frente al daño.');">
+                                            <label for="coraMarca1">Fuerte</label>
                                         </div>
                                         <div class="agrupa">
-                                            <input type="radio" id="linDebiles" name="marcas" value="2" onclick="document.getElementById('txtQueso').value='Débiles'">
-                                            <label for="linDebiles">Inter</label>
+                                            <input type="radio" id="coraMarca2" name="coraMarca" value="2" onclick="receptorDatos('Percepción','Delicada','Falta de interés ante las emociones de los demás. Gran sensibilidad frente al daño. Cadena = Compasión, sensibilidad y vulnerabilidad');">
+                                            <label for="coraMarca2">Delicada</label>
                                         </div>
                                     </div>
                                     <div class="opciones">
                                         <div class="agrupa">
-                                            <input type="radio" id="linFuertes" name="marcas" value="1" onclick="document.getElementById('txtQueso').value='Fuertes'" checked="checked">
-                                            <label for="linFuertes">Curva</label>
+                                            <input type="radio" id="coraForma1" name="coraForma" value="1" onclick="receptorDatos('Forma','Curva','Son abiertamente apasionados, espontáneos y táctiles. Muestran emoción y afecto en público. En las relaciones buscamos dominar.');">
+                                            <label for="coraForma1">Curva</label>
                                         </div>
                                         <div class="agrupa">
-                                            <input type="radio" id="linDebiles" name="marcas" value="2" onclick="document.getElementById('txtQueso').value='Débiles'">
-                                            <label for="linDebiles">Semi</label>
-                                        </div>
-                                        <div class="agrupa">
-                                            <input type="radio" id="linDebiles" name="marcas" value="2" onclick="document.getElementById('txtQueso').value='Débiles'">
-                                            <label for="linDebiles">Recta</label>
-                                        </div> 
+                                            <input type="radio" id="coraForma2" name="coraForma" value="2" onclick="receptorDatos('Forma','Recta','Son más analíticos. Preferimos mostrar afecto en privado. En las relaciones buscamos igualdad o un papel receptivo, de apoyo.');">
+                                            <label for="coraForma2">Recta</label>
+                                        </div>                                        
                                     </div>
                                     <div class="opciones">
                                         <div class="agrupa">
-                                            <input type="radio" id="linFuertes" name="marcas" value="1" onclick="document.getElementById('txtQueso').value='Fuertes'" checked="checked">
-                                            <label for="linFuertes">Fin DIA↓</label>
+                                            <input type="radio" id="coraFin1" name="coraFin" value="2" onclick="receptorDatos('Fin','Indice','Desean creer lo mejor de todo el mundo. Tienen grandes expectativas respecto al amor; son idealistas, selectivos y difíciles de satisfacer. Buscan el caballero con su armadura (o la princesa que rescatar). ');">
+                                            <label for="coraFin1">Fin Di↓</label>
                                         </div>
                                         <div class="agrupa">
-                                            <input type="radio" id="linDebiles" name="marcas" value="2" onclick="document.getElementById('txtQueso').value='Débiles'">
-                                            <label for="linDebiles">Inter</label>
-                                        </div>
-                                        <div class="agrupa">
-                                            <input type="radio" id="linDebiles" name="marcas" value="2" onclick="document.getElementById('txtQueso').value='Débiles'">
-                                            <label for="linDebiles">Fin DA↓</label>
+                                            <input type="radio" id="coraFin2" name="coraFin" value="2" onclick="receptorDatos('Fin','Corazon','Son más pragmáticos acerca de las expectativas del amor y el compromiso. Deberían esforzarce para no ser tan sentenciosos, egoístas y juzgar tan rápido a los demás. Deberín dejar atrás el daño y las inseguridades del pasado');">
+                                            <label for="coraFin2">Fin Dm↓</label>
                                         </div> 
                                     </div>
                                 </fieldset>
                             </section>
                             <section id="areas" class="contenedor">
-                                    <div><h4>LINEA DEL DESTINO</h4></div>
-                                    <div><hr></div>
-                                    <div style="color: #802BFF; font-size: 14px; "> [Respuesta emocionales y capacidad de afecto] </div>
-                                    <fieldset>
-                                        <div class="opciones">
-                                            <div class="agrupa">
-                                                <input type="radio" id="linFuertes" name="marcas" value="1" onclick="document.getElementById('txtQueso').value='Fuertes'" checked="checked">
-                                                <label for="linFuertes">Ausencia</label>
-                                            </div>
-                                            <div class="agrupa">
-                                                <input type="radio" id="linDebiles" name="marcas" value="2" onclick="document.getElementById('txtQueso').value='Débiles'">
-                                                <label for="linDebiles">Fragmentada</label>
-                                            </div>
-                                            <div class="agrupa">
-                                                <input type="radio" id="linDebiles" name="marcas" value="2" onclick="document.getElementById('txtQueso').value='Débiles'">
-                                                <label for="linDebiles">Continua</label>
-                                            </div> 
+                                <div><h4>LINEA DEL DESTINO</h4></div>
+                                <div><hr></div>
+                                <div class="ayuda"> [Respuesta emocionales y capacidad de afecto] </div>
+                                <fieldset>
+                                    <div class="opciones">
+                                        <div class="agrupa">
+                                             <input type="radio" id="destino" name="destino" value="1" onclick="receptorDatos('Presencia','Ausencia','Un espíritu independiente, sin dirección, rutina o trayectoria vital definida. Rebelión contra las expectativas sociales. Vida aventurera. Son una ley para sí mismos.');">
+                                            <label for="destino">Ausencia</label>
                                         </div>
-                                        <div class="opciones">
-                                            <div class="agrupa">
-                                                <input type="radio" id="linFuertes" name="marcas" value="1" onclick="document.getElementById('txtQueso').value='Fuertes'" checked="checked">
-                                                <label for="linFuertes">Fuerte</label>
-                                            </div>
-                                            <div class="agrupa">
-                                                <input type="radio" id="linDebiles" name="marcas" value="2" onclick="document.getElementById('txtQueso').value='Débiles'">
-                                                <label for="linDebiles">Semi</label>
-                                            </div>
-                                            <div class="agrupa">
-                                                <input type="radio" id="linDebiles" name="marcas" value="2" onclick="document.getElementById('txtQueso').value='Débiles'">
-                                                <label for="linDebiles">Débil</label>
-                                            </div> 
+                                    </div>
+                                    <div class="opciones">
+                                        <div class="agrupa">
+                                            <input type="radio" id="destinoLinea1" name="destinoLinea" value="1" onclick="receptorDatos('Percepción','Fragmentada','Muchos cambios sociales; un umbral muy pequeño de aburrimiento. Falta de dirección; pueden ser indecisos, vagos o dispersos. Una vida menos estable, les disgusta la rutina y a menudo sienten ansiedad respecto al futuro.');">
+                                            <label for="destinoLinea1">Fragmentada</label>
                                         </div>
-                                    </fieldset>
+                                        <div class="agrupa">
+                                             <input type="radio" id="destinoLinea2" name="destinoLinea" value="1" onclick="receptorDatos('Percepción','Continua','Una vida laboral estable o un ascenso resuelto en la escala profesional. Objetivos y planes establecidos; saben adonde van. Perseverancia, no los detien ni los reveses ni las interferencias.');">
+                                            <label for="destinoLinea2">Continua</label>
+                                        </div> 
+                                    </div>                                    
+                                </fieldset>
                             </section>
                         </div>
                         <div id="primaria">                               
                             <section id="areas" class="contenedor">
-                                    <div><h4>DEDOS RECTOS</h4></div>
-                                    <div><hr></div>
-                                    <div style="color: #802BFF; font-size: 14px; "> [Expresión del carácter] </div>
-                                    <fieldset>
-                                        <div class="opciones">
-                                                <div class="dedos">
-                                                    <input type="checkbox" id="tamGrande" name="tamano" value="1" onclick="document.getElementById('txtTama').value='Grandes'">
-                                                    <label for="tamGrande">Índice</label>
-                                                </div>
-                                                <div class="dedos">
-                                                    <input type="checkbox" id="tamPeque" name="tamano" value="2" onclick="document.getElementById('txtTama').value='Pequeñas'">
-                                                    <label for="tamGra">Corazón</label>
-                                                </div>
-                                                <div class="dedos">
-                                                    <input type="checkbox" id="tamPeque" name="tamano" value="2" onclick="document.getElementById('txtTama').value='Pequeñas'">
-                                                    <label for="tamGra">Anular</label>
-                                                </div>
-                                                <div class="dedos">
-                                                    <input type="checkbox" id="tamPeque" name="tamano" value="2" onclick="document.getElementById('txtTama').value='Pequeñas'">
-                                                    <label for="tamGra">Meñique</label>
-                                                </div>
+                                <div><h4>DEDOS RECTOS</h4></div>
+                                <div><hr></div>
+                                <div style="color: #802BFF; font-size: 14px; "> [Expresión del carácter] </div>
+                                <fieldset>
+                                    <div class="opciones">
+                                            <div class="dedos">
+                                                <input type="checkbox" id="tamGrande" name="tamano" value="1" onclick="document.getElementById('txtTama').value='Grandes'">
+                                                <label for="tamGrande">Índice</label>
                                             </div>
-                                    </fieldset>
+                                            <div class="dedos">
+                                                <input type="checkbox" id="tamPeque" name="tamano" value="2" onclick="document.getElementById('txtTama').value='Pequeñas'">
+                                                <label for="tamGra">Corazón</label>
+                                            </div>
+                                            <div class="dedos">
+                                                <input type="checkbox" id="tamPeque" name="tamano" value="2" onclick="document.getElementById('txtTama').value='Pequeñas'">
+                                                <label for="tamGra">Anular</label>
+                                            </div>
+                                            <div class="dedos">
+                                                <input type="checkbox" id="tamPeque" name="tamano" value="2" onclick="document.getElementById('txtTama').value='Pequeñas'">
+                                                <label for="tamGra">Meñique</label>
+                                            </div>
+                                        </div>
+                                </fieldset>
                             </section>
                             <section id="areas" class="contenedor">
                                     <div><h4>DIGITO DOMINANTE</h4></div>
