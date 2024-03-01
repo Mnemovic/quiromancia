@@ -4,7 +4,7 @@
         <meta http-equiv="content-type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>QUIROMANCIA</title>
-        <link rel="stylesheet" type="text/css" href="quiromante/Pizzas-Estilos.css">
+        <link rel="stylesheet" type="text/css" href="estilos/styles.css">
         <script src="Pizzas_Responsivo%20Archivos/Script.js"></script>
         <!-- <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> -->
     </head>
@@ -48,7 +48,7 @@
                                 </fieldset>
                             </section>
                             <section id="areas" class="contenedor">
-                                <div><h4>LINEAS DE LA PALMA (CANTIDAD - ESPESOR) </h4></div>
+                                <div><h4>LINEAS DE LA PALMA (CANTIDAD - VISIBILIDAD) </h4></div>
                                 <div><hr></div>                                   
                                 <fieldset>
                                     <div class="opciones">
@@ -63,11 +63,11 @@
                                     </div>
                                     <div class="opciones">
                                         <div class="agrupa">
-                                            <input type="radio" id="lineasFue" name="lineasMar" value="1" onclick="receptorDatos('Grosor de Líneas','Fuertes','Ambición, empuje y motivación personal. Una actitud determinada y enérgica ante la vida. Dirección y una dosis sana de confianza en uno mismo.');">
+                                            <input type="radio" id="lineasFue" name="lineasMar" value="1" onclick="receptorDatos('Percepción de Líneas','Fuertes','Ambición, empuje y motivación personal. Una actitud determinada y enérgica ante la vida. Dirección y una dosis sana de confianza en uno mismo.');">
                                             <label for="lineasFue">Fuertes</label>
                                         </div>
                                         <div class="agrupa">
-                                            <input type="radio" id="lineasDeb" name="lineasMar" value="2" onclick="receptorDatos('Grosor de Líneas','Débiles','Falta de implicación en la vida cotidiana. Una actitud desganada, aletargada ante las situaciones. Miedo al fracaso. Actitud negativa, indecisión o falta de dirección. Problemas de constitución física. Dieta incorrecta y falta de ejercicio.')">
+                                            <input type="radio" id="lineasDeb" name="lineasMar" value="2" onclick="receptorDatos('Percepción de Líneas','Débiles','Falta de implicación en la vida cotidiana. Una actitud desganada, aletargada ante las situaciones. Miedo al fracaso. Actitud negativa, indecisión o falta de dirección. Problemas de constitución física. Dieta incorrecta y falta de ejercicio.')">
                                             <label for="lineasDeb">Débiles</label>
                                         </div>
                                     </div>
@@ -165,7 +165,7 @@
                                     </div> 
                                     <div class="opciones">
                                         <div class="agrupa">
-                                            <input type="radio" id="vidaMarca1" name="vidaMarca" value="1" onclick="receptorDatos('Fuerza física y energ+ia. Ressitencia y buen sistema inmunológico. Claridad de objetivos y dirección. Confianza para afrontar la vida.');">
+                                            <input type="radio" id="vidaMarca1" name="vidaMarca" value="1" onclick="receptorDatos('Fuerza física y energía. Ressitencia y buen sistema inmunológico. Claridad de objetivos y dirección. Confianza para afrontar la vida.');">
                                             <label for="vidaMarca1">Gruesa</label>
                                         </div>
                                         <div class="agrupa">
@@ -182,61 +182,51 @@
                                 <fieldset>
                                     <div class="opciones">
                                         <div class="agrupa">
-                                            <input type="radio" id="cabezaTipo1" name="cabezaTipo" value="1" onclick="document.getElementById('txtOpcion10').value='Curva',
-                                            document.getElementById('areaResultado10').value='Expresa imaginación y creatividad. Evita complicaciones o complejidades. Experimenta con ideas nuevas y asume riesgos calculados. Afronta con energia los problemas para solucionarlos.'">
+                                            <input type="radio" id="cabezaTipo1" name="cabezaTipo" value="1" onclick="receptorDatos('Forma','Curva','Expresa imaginación y creatividad. Evita complicaciones o complejidades. Experimenta con ideas nuevas y asume riesgos calculados. Afronta con energia los problemas para solucionarlos.');">
                                             <label for="cabezaTipo1">Curva</label>
                                         </div>
                                         <div class="agrupa">
-                                            <input type="radio" id="cabezaTipo2" name="cabezaTipo" value="2" onclick="document.getElementById('txtOpcion10').value='Recta',
-                                            document.getElementById('areaResultado10').value='Plantea un enfoque racional y prudente. Necesita pruebas antes de llegar a conclusiones. Analiza usando el sentido común. Responde de forma practica a los problemas.'">
+                                            <input type="radio" id="cabezaTipo2" name="cabezaTipo" value="2" onclick="receptorDatos('Forma','Recta','Plantea un enfoque racional y prudente. Necesita pruebas antes de llegar a conclusiones. Analiza usando el sentido común. Responde de forma practica a los problemas.');">
                                             <label for="cabezaTipo2">Recta</label>
                                         </div>
                                     </div> 
                                     <div class="opciones">
                                         <div class="agrupa">
-                                            <input type="radio" id="cabezaTamano1" name="cabezaTamano" value="2" onclick="document.getElementById('txtOpcion11').value='Corta',
-                                            document.getElementById('areaResultado11').value='Mente decida, con frecuencia impulsiva. Incapacidad de percibir las sutilezas de las situaciones. Falta de reflexión. Capacidad de atención limitada.'">
+                                            <input type="radio" id="cabezaTamano1" name="cabezaTamano" value="2" onclick="receptorDatos('Longitud','Corta','Mente decida, con frecuencia impulsiva. Incapacidad de percibir las sutilezas de las situaciones. Falta de reflexión. Capacidad de atención limitada.');">
                                             <label for="cabezaTamano1">Corta</label>
                                         </div>
                                         <div class="agrupa">
-                                            <input type="radio" id="cabezaTamano2" name="cabezaTamano" value="2" onclick="document.getElementById('txtOpcion11').value='Larga',
-                                            document.getElementById('areaResultado11').value='Pensamiento exhaustivo de argumentos y desiciones. Capacidad para asuntos complejos. Capacidad de concentración elevada. Numerosas aficiones e intereses.'">
+                                            <input type="radio" id="cabezaTamano2" name="cabezaTamano" value="2" onclick="receptorDatos('Longitud','Larga','Pensamiento exhaustivo de argumentos y desiciones. Capacidad para asuntos complejos. Capacidad de concentración elevada. Numerosas aficiones e intereses.');">
                                             <label for="cabezaTamano2">Larga</label>
                                         </div>
                                     </div>
                                     <div class="opciones">
                                         <div class="agrupa">
-                                            <input type="radio" id="cabezaGrueso1" name="cabezaGrueso" value="2" onclick="document.getElementById('txtOpcion12').value='Delicada',
-                                            document.getElementById('areaResultado12').value='Mentalidad delicada, débil de algún modo'">
-                                            <label for="cabezaGrueso1">Delicada</label>
+                                            <input type="radio" id="cabezaGrueso1" name="cabezaGrueso" value="1" onclick="receptorDatos('Percepción','Fuerte','Actitud brusca, franca ante los problemas.');">
+                                            <label for="cabezaGrueso1">Fuerte</label>
                                         </div>
                                         <div class="agrupa">
-                                            <input type="radio" id="cabezaGrueso2" name="cabezaGrueso" value="2" onclick="document.getElementById('txtOpcion12').value='Tosca',
-                                            document.getElementById('areaResultado12').value='Actitud brusca, franca ante los problemas.'">
-                                            <label for="cabezaGrueso2">Tosca</label>
+                                            <input type="radio" id="cabezaGrueso2" name="cabezaGrueso" value="2" onclick="receptorDatos('Percepción','Delicada','Mentalidad delicada, débil de algún modo');">
+                                            <label for="cabezaGrueso2">Delicada</label>
                                         </div>
                                     </div>
                                     <div class="opciones">
                                         <div class="agrupa">
-                                            <input type="radio" id="cabezaInicio1" name="cabezaInicio" value="2" onclick="document.getElementById('txtOpcion13').value='Unida',
-                                            document.getElementById('areaResultado13').value='Se adentran con prudencia en situaciones nuevas y cautelosso al tomar desiciones. Timidos ocasionalmente dejando a los demas ayudar a dirigir su vida. Padres sobreprotectores.'">
+                                            <input type="radio" id="cabezaInicio1" name="cabezaInicio" value="2" onclick="receptorDatos('Inicio','Unida','Se adentran con prudencia en situaciones nuevas y cautelosso al tomar desiciones. Timidos ocasionalmente dejando a los demas ayudar a dirigir su vida. Padres sobreprotectores.');">
                                             <label for="cabezaInicio1">Unida</label>
                                         </div>
                                         <div class="agrupa">
-                                            <input type="radio" id="cabezaInicio2" name="cabezaInicio" value="2" onclick="document.getElementById('txtOpcion13').value='Separada',
-                                            document.getElementById('areaResultado13').value='Desarrollo de opiniones propias y caracter individualista a edad temprana. Carácter espontáneo y seguridad en si mismos. Padres lejanos u ocupados.'">
+                                            <input type="radio" id="cabezaInicio2" name="cabezaInicio" value="2" onclick="receptorDatos('Inicio','Separada','Desarrollo de opiniones propias y caracter individualista a edad temprana. Carácter espontáneo y seguridad en si mismos. Padres lejanos u ocupados.');">
                                             <label for="cabezaInicio2">Separada</label>
                                         </div>
                                     </div>
                                     <div class="opciones">                                       
                                         <div class="agrupa">
-                                            <input type="radio" id="cabezaFinal1" name="cabezaFinal" value="2" onclick="document.getElementById('txtOpcion14').value='Meñique',
-                                            document.getElementById('areaResultado14').value='Pensamientos orientados a ganar dinero.'">
+                                            <input type="radio" id="cabezaFinal1" name="cabezaFinal" value="2" onclick="receptorDatos('Final','Meñique','Pensamientos orientados a ganar dinero.');">
                                             <label for="cabezaFinal1">Final Dm↑</label>
                                         </div>
                                         <div class="agrupa">
-                                            <input type="radio" id="cabezaFinal2" name="cabezaFinal" value="2" onclick="document.getElementById('txtOpcion14').value='Muñeca',
-                                            document.getElementById('areaResultado14').value='Sumergirse en un mundo de fantasía, para no hacerse responsables de los problemas.'">
+                                            <input type="radio" id="cabezaFinal2" name="cabezaFinal" value="2" onclick="receptorDatos('Final','Muñeca','Sumergirse en un mundo de fantasía, para no hacerse responsables de los problemas.');">
                                             <label for="cabezaFinal2">Final M↓</label>
                                         </div>
                                     </div>
@@ -536,112 +526,12 @@
                         </div>
                     </div>
                     <section id="result" class="contenedor">
-                        <div><h4>RESULTADOS PARTICULARES DE LA LECTURA</h4></div>
+                        <div><h4>RESULTADOS DE LA LECTURA</h4></div>
                         <div><hr></div>
                         <fieldset>
                             <div class="opciones">
-                                <div class="agrupaRES">
-                                    <label class="labelRES"for="txtOpcion1">Mano Dominante:</label>
-                                    <input type="text" id="txtOpcion1" class="texto" name="txtOpcion1">
-                                    <textarea id="areaResultado1" class="descripcion" name="areaResultado1" rows="1" cols="600"></textarea>         
-                                </div>
-                            </div> 
-                            <div class="opciones">
-                                <div class="agrupaRES">
-                                    <label class="labelRES"for="txtOpcion2">Lineas - Cantidad:</label>
-                                    <input type="text" id="txtOpcion2" class="texto" name="txtOpcion2">
-                                    <textarea id="areaResultado2" class="descripcion" name="areaResultado2" rows="1" cols="600"></textarea>         
-                                </div>
-                            </div> 
-                            <div class="opciones">
-                                <div class="agrupaRES">
-                                    <label class="labelRES"for="txtOpcion3">Lineas - Marcadas:</label>
-                                    <input type="text" id="txtOpcion3" class="texto" name="txtOpcion3">
-                                    <textarea id="areaResultado3" class="descripcion" name="areaResultado3" rows="1" cols="600"></textarea>         
-                                </div>
-                            </div>
-                            <div class="opciones">
-                                <div class="agrupaRES">
-                                    <label class="labelRES"for="txtOpcion4">Tamaño de la Mano:</label>
-                                    <input type="text" id="txtOpcion4" class="texto" name="txtOpcion4">
-                                    <textarea id="areaResultado4" class="descripcion" name="areaResultado4" rows="1" cols="600"></textarea>         
-                                </div>
-                            </div>
-                            <div class="opciones">
-                                <div class="agrupaRES">
-                                    <label class="labelRES"for="txtOpcion5">Tipo de Palma:</label>
-                                    <input type="text" id="txtOpcion5" class="texto" name="txtOpcion5">
-                                    <textarea id="areaResultado5" class="descripcion" name="areaResultado5" rows="1" cols="600"></textarea>         
-                                </div>
-                            </div>
-                            <div class="opciones">
-                                <div class="agrupaRES">
-                                    <label class="labelRES"for="txtOpcion6">Tipos de Dedos:</label>
-                                    <input type="text" id="txtOpcion6" class="texto" name="txtOpcion6">
-                                    <textarea id="areaResultado6" class="descripcion" name="areaResultado6" rows="1" cols="600"></textarea>         
-                                </div>
-                            </div>
-                            <div class="opciones">
-                                <div class="agrupaRES">
-                                    <label class="labelRES"for="txtOpcion6">Montes de la Palma:</label>
-                                    <input type="text" id="txtOpcion7" class="texto" name="txtOpcion7">
-                                    <textarea id="areaResultado7" class="descripcion" name="areaResultado7" rows="1" cols="600"></textarea>         
-                                </div>
-                            </div>
-                            <div class="opciones">
-                                <div class="agrupaRES">
-                                    <label class="labelRES"for="txtOpcion8">Línea Vida - Largo:</label>
-                                    <input type="text" id="txtOpcion8" class="texto" name="txtOpcion8">
-                                    <textarea id="areaResultado8" class="descripcion" name="areaResultado8" rows="1" cols="600"></textarea>         
-                                </div>
-                            </div>
-                            <div class="opciones">
-                                <div class="agrupaRES">
-                                    <label class="labelRES"for="txtOpcion9">Línea Vida - Marca:</label>
-                                    <input type="text" id="txtOpcion9" class="texto" name="txtOpcion9">
-                                    <textarea id="areaResultado9" class="descripcion" name="areaResultado9" rows="1" cols="600"></textarea>         
-                                </div>
-                            </div>
-                            <div class="opciones">
-                                <div class="agrupaRES">
-                                    <label class="labelRES"for="txtOpcion10">Línea Cabeza - Tipo:</label>
-                                    <input type="text" id="txtOpcion10" class="texto" name="txtOpcion10">
-                                    <textarea id="areaResultado10" class="descripcion" name="areaResultado10" rows="1" cols="600"></textarea>         
-                                </div>
-                            </div>
-                            <div class="opciones">
-                                <div class="agrupaRES">
-                                    <label class="labelRES"for="txtOpcion11">Línea Vida - Marca:</label>
-                                    <input type="text" id="txtOpcion11" class="texto" name="txtOpcion11">
-                                    <textarea id="areaResultado11" class="descripcion" name="areaResultado11" rows="1" cols="600"></textarea>         
-                                </div>
-                            </div>
-                            <div class="opciones">
-                                <div class="agrupaRES">
-                                    <label class="labelRES"for="txtOpcion12">Línea Vida - Grueso:</label>
-                                    <input type="text" id="txtOpcion12" class="texto" name="txtOpcion12">
-                                    <textarea id="areaResultado12" class="descripcion" name="areaResultado12" rows="1" cols="600"></textarea>         
-                                </div>
-                            </div>
-                            <div class="opciones">
-                                <div class="agrupaRES">
-                                    <label class="labelRES"for="txtOpcion13">Línea Vida - Inicio:</label>
-                                    <input type="text" id="txtOpcion13" class="texto" name="txtOpcion13">
-                                    <textarea id="areaResultado13" class="descripcion" name="areaResultado13" rows="1" cols="600"></textarea>         
-                                </div>
-                            </div>
-                            <div class="opciones">
-                                <div class="agrupaRES">
-                                    <label class="labelRES"for="txtOpcion14">Línea Vida - Final:</label>
-                                    <input type="text" id="txtOpcion14" class="texto" name="txtOpcion14">
-                                    <textarea id="areaResultado14" class="descripcion" name="areaResultado14" rows="1" cols="600"></textarea>         
-                                </div>
-                            </div>
-                            <div class="opciones">
-                                <div class="agrupaRES">
-                                    <label class="labelRES"for="txtOpcion15">Línea Vida - Marca:</label>
-                                    <input type="text" id="txtOpcion15" class="texto" name="txtOpcion15">
-                                    <textarea id="areaResultado15" class="descripcion" name="areaResultado15" rows="1" cols="600"></textarea>         
+                                <div class="agrupaRES"> 
+                                    <textarea id="areaResultado1" class="descripcion" name="areaResultado1" rows="5" cols="900"></textarea>         
                                 </div>
                             </div>
                         </fieldset>
@@ -656,7 +546,6 @@
                 var texto = descripcion;
                 alert(opcion + ' - ' + seleccion + ': ' + texto);
                 general = general + descripcion + '\n';
-                alert(general);  
                 // Swal.fire({title: opcion + ': ' + seleccion, text: descripcion, icon: "success"});
             }
         </script>
