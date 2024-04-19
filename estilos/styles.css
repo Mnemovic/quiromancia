@@ -41,13 +41,13 @@ fieldset    {   display: flex;  flex-direction: column; justify-content:space-ar
 .opciones    {   display: flex;  flex-direction: row; justify-content:space-evenly; padding: 5px;   }
 
 .agrupa     {   display:flex; flex-direction: row; justify-content:center; width: 95px; margin-left: 10px;      }
-.agrupaRES     {   display:flex; flex-direction: row; justify-content:center; margin-left: 10px;      }
+.agrupaRES     {   display:flex; flex-direction: row; justify-content:center; margin-left: 10px; width: auto;      }
 
 label       {   width: 70px; text-align: left;  font-size: 14px;       }
 .labelRES   {   width: 125px; text-align: left;  font-size: 14px;       }
 input       {   width: 20px;    }
 .texto      {   width: 125px; margin: 0px 10px; font-size: 14px;      color:darkslategray;     }
-.descripcion {   width: 90%; margin: 0px 10px; font-size: 14px;     color:darkslategray;     }  
+.descripcion {   width: 80%; margin: 0px 10px; font-size: 14px;     color:darkslategray;     }  
 .contenedor 
 {
     padding: 2px;
@@ -60,7 +60,7 @@ input       {   width: 20px;    }
 }
 
 #areas {   width: 365px;   margin: 5px;   }
-#result {   width: 1175px;   margin: 5px;   }
+#result {   width: 98%;   margin: 5px;   }
 
 hr {margin: 0px 10px; }
 

@@ -492,7 +492,8 @@
                         <fieldset>
                             <div class="opciones">
                                 <div class="agrupaRES"> 
-                                    <textarea id="areaResultado1" class="descripcion" name="areaResultado1" rows="5" cols="900"></textarea>         
+                                    <button type="button" onclick="guardarDatos();">Guardar</button>                            
+                                    <textarea id="areaResultado1" class="descripcion" name="areaResultado1" rows="50" cols="900"></textarea>         
                                 </div>
                             </div>
                         </fieldset>
@@ -507,6 +508,10 @@
                 // alert(opcion + ' - ' + seleccion + ': ' + texto);                
                 Swal.fire({title: opcion + ': ' + seleccion, text: descripcion, icon: "success"});
                 general = general + descripcion + '\n';
+            }
+            function guardarDatos()
+            {
+                document.getElementById("areaResultado1").value = general;
             }
         </script>
     </body>▼
