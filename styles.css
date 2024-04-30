@@ -7,7 +7,7 @@ body
 {  
     background-image: url(imagenes/quiromancia.jpg); 
     background-size:contain;
-    opacity: .75;
+    opacity: 1;
 }
 #principal
 {
@@ -55,6 +55,8 @@ input       {   width: 20px;    }
 .descripcion {   width: 80%; margin: 0px 10px; font-size: 14px;     color:darkslategray;     }  
 .contenedor 
 {
+    background-color: darkslategray;
+    opacity: .66;
     padding: 2px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
