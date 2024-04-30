@@ -5,7 +5,7 @@ html
 }
 body 
 {  
-    background-image: url(/quiromancia.jpg); 
+    background-image: url(../quiromancia.jpg); 
     background-size:contain;
     opacity: .75;
 }
