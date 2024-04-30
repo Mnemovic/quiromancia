@@ -3,15 +3,20 @@ html
 {
     background-color: black;    
 }
+body 
+{  
+    background-image: url(/quiromancia.jpg); 
+    background-size:contain;
+    opacity: .75;
+}
 #principal
 {
     width: 1165px;
     height: 100%;
-    margin: auto;
-    background-color: black; 
-    -webkit-box-shadow: 0px 5px 10px 0px #4B1167;
-    -moz-box-shadow:    0px 5px 10px 0px #4B1167;
-    box-shadow:         0px 5px 10px 0px #4B1167; 
+    margin: auto;    
+    -webkit-box-shadow: 0px 5px 10px 0px white;
+    -moz-box-shadow:    0px 5px 10px 0px white;
+    box-shadow:         0px 5px 10px 0px white; 
 }
 header 
 {    
@@ -54,9 +59,9 @@ input       {   width: 20px;    }
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
-    -webkit-box-shadow: 0px 3px 5px 0px #4B1167;
-    -moz-box-shadow:    0px 3px 5px 0px #4B1167;
-    box-shadow:         0px 3px 5px 0px #4B1167;  
+    -webkit-box-shadow: 0px 5px 10px 0px white;
+    -moz-box-shadow:    0px 5px 10px 0px white;
+    box-shadow:         0px 5px 10px 0px white;  
 }
 
 #areas {   width: 365px;   margin: 5px;   }
